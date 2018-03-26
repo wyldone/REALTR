@@ -1,8 +1,11 @@
-import React from 'react';
+import React from 'react'; 
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Landing from './components/Landing.js';
+import "./index.css"
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// Rendering DOM
+ReactDOM.render(
+<Landing/>,
+ document.getElementById("root")
+
+);
