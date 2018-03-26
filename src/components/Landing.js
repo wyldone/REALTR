@@ -7,7 +7,7 @@ class Landing extends Component {
         return (
             <div>
                 <div className="landingContainer">
-                    <img src={logo} className="logo" alt="" />
+                    <img src={logo} className="logo" alt=" "/>
                 </div>
             </div>
         )

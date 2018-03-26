@@ -4,19 +4,17 @@
 /* BODY STYLE */
 /* ========================================================= */
 body{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
-   margin: 0;
+    background-image: url(https://cdn.myfancyhouse.com/wp-content/uploads/2014/06/Contemporary-Mansions-On-Sunset-Plaza-Drive-LA-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* LANDING STYLE */
 /* ========================================================= */
 
-.bot{
-    height: 250px;
-}
-p{
-    text-align: center;
-}
