@@ -1,14 +1,13 @@
-import React from 'react'; 
-import ReactDOM from 'react-dom';
-import Landing from "./components/Landing/Landing.js";
-import ".//index.css"
+import React from "react";
+import { render } from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./components/App";
 
-// Rendering DOM
-ReactDOM.render(
-<Landing/>,
- document.getElementById("root")
-
+render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
 );
 
 
-// /Users/rach3tralph/PPROJECTS/REALTR/src/components/Landing/Landing.js
