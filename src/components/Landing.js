@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from '../imgs/logo.png';
+import logo from '../components/images/logo.png';
 
-
+// /Users/rach3tralph/PPROJECTS/REALTR/src/components/images
 class Landing extends Component {
     render() {
         return (
