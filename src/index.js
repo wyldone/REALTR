@@ -1,7 +1,7 @@
 import React from 'react'; 
 import ReactDOM from 'react-dom';
-import Landing from './components/Landing.js';
-import "./index.css"
+import Landing from "./components/Landing/Landing.js";
+import ".//index.css"
 
 // Rendering DOM
 ReactDOM.render(
@@ -9,3 +9,6 @@ ReactDOM.render(
  document.getElementById("root")
 
 );
+
+
+// /Users/rach3tralph/PPROJECTS/REALTR/src/components/Landing/Landing.js
