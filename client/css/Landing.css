@@ -1,0 +1,30 @@
+.chatContainer{
+    position: relative;
+    background-image: url("http://yudtini.com/image/hitech01.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    /* align-items: center;
+    justify-content: center;  */
+    min-height: 85vh; 
+    margin: 0;
+    z-index: auto;
+} 
+/* /Users/rach3tralph/PPROJECTS/REALTR/images/bkg1.png */
+.logo{
+height: 100px;
+margin: 0px;
+}
+.navText{
+    padding-top: 19px;
+    font-size: 24px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+#chatwrapper{
+    padding-top: 10px;
+
+
+}
