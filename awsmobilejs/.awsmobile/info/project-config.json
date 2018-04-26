@@ -1,6 +1,0 @@
-{
-	"SourceDir": "client",
-	"DistributionDir": "dont know",
-	"BuildCommand": "yarn build",
-	"StartCommand": "yarn start"
-}

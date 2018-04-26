@@ -9,7 +9,6 @@ import LexChat from "react-lex";
 class Landing extends Component {
   render() {
     return <div>
-        
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>

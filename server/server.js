@@ -5,7 +5,7 @@ var path = require("path");
 
 var app = express();
 
-app.set("view engine", "ejs");
+app.set("view engine", "react");
 app.set("views", path.join(__dirname, "../client"));
 app.use(express.static(path.join(__dirname, "../client")));
 
